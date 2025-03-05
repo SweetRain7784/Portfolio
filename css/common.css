@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/*
+ * Version : 0.1
+ * Date : 2025-03
+ */
+
+:root{
+    /* color */
+    --color-black : #333333;
+    --color-white : #FFFFFF;
+    --color-babypink : #fcc6cf;
+    --color-pink : #fe8081;
+    --color-hotpink : #e20147;
+    --color-shadowpink : #feabab;
+    --color-lightgray : #ebebeb;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+}
+
+html, body{
+    color : var(--color-black);
+}
