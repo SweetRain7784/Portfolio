@@ -103,9 +103,137 @@ header {
     font-weight : 700;
     font-size : clamp(2rem, 7vw, 8rem);
     margin-bottom:6rem;
+    background: linear-gradient(to right, var(--color-pink), var(--color-hotpink));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .main_wrap p{
     font-size : 1.2rem;
     line-height: 1.8;
+}
+
+/* profile 영역 */
+.profile_wrap{
+    height : 100%;
+    padding : 5vw 8vw;
+    background-color: var(--color-white);
+}
+
+.profile_detail{
+    margin-bottom : 2rem;
+}
+
+.profile_detail h1{
+    font-size : 3rem;
+    font-weight : bold;
+    margin-bottom : 4rem;
+} 
+
+.profile_intro{
+    display:flex;
+    flex-wrap : wrap;
+    justify-content: center;
+    gap : 14%;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 0 1rem var(--color-lightgray);
+    border-radius: 16px;
+    padding : 2rem;
+}
+
+.profile_intro_img{
+    width : 18%;
+}
+
+.profile_intro_img img{
+    width:100%;
+
+}
+
+.profile_intro_text{
+    width : 53%;
+
+}
+
+.profile_intro_text h3{
+    font-size : 2rem;
+    font-weight: bold;
+    height : 4rem;
+}
+
+.profile_intro_text p{
+    margin-bottom : 1rem;
+    letter-spacing: 2px;
+}
+
+.profile_spec{
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    gap : 1.4%
+}
+
+.profile_work{
+    width : 50%;
+    box-shadow: 0 0 1rem var(--color-lightgray);
+    border-radius: 16px;
+    padding : 2rem;
+}
+
+.profile_work h3{
+    font-size : 2rem;
+    font-weight: bold;
+    height : 4rem;
+}
+
+.profile_work p{
+    margin-bottom : 1rem;
+    letter-spacing: 2px;
+}
+
+.education{
+    width : 50%;
+    box-shadow: 0 0 1rem var(--color-lightgray);
+    border-radius: 16px;
+    padding : 2rem;
+}
+
+.education h3{
+    font-size : 2rem;
+    font-weight: bold;
+    height : 4rem;
+}
+
+.education p{
+    margin-bottom : 1rem;
+    letter-spacing: 2px;
+}
+
+.profile_intro:hover{
+    box-shadow: 0 0 2rem var(--color-babypink);
+}
+
+.profile_work:hover{
+    box-shadow: 0 0 2rem var(--color-babypink);
+}
+
+.education:hover{
+    box-shadow: 0 0 2rem var(--color-babypink);
+}
+
+.skill_group{
+    width:100%;
+    position:relative;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: var(--gap);
+}
+
+.skill_group img{
+    width : 8%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
