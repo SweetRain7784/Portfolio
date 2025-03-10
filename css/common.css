@@ -14,6 +14,8 @@
     --color-hotpink : #e20147;
     --color-shadowpink : #feabab;
     --color-lightgray : #ebebeb;
+    --color-backgroundgray : #fafafa;
+    --color-subfont : #666666;
 }
 
 * {

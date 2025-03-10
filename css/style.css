@@ -144,6 +144,7 @@ header {
 
 .profile_intro_img{
     width : 14%;
+    display: flex;;
 }
 
 .profile_intro_img img{
@@ -233,7 +234,7 @@ header {
 .profile_skill h3{
     font-size : 2rem;
     font-weight: bold;
-    height : 4rem;
+    height : 5rem;
 }
 
 .skill_group{
@@ -252,4 +253,55 @@ header {
 
 .profile_skill:hover{
     box-shadow: 0 0 2rem var(--color-babypink);
+}
+
+/* work 영역 */
+.work_wrap{
+    height : 100%;
+    padding : 5vw 8vw;
+    background-color: var(--color-backgroundgray);
+}
+
+.work_detail h1{
+    font-size : 3rem;
+    font-weight : bold;
+    margin-bottom : 4rem;
+}
+
+.work_list{
+    display: flex;
+    flex-wrap : wrap;
+    gap : 2%;
+}
+
+.work_list li{
+    width : 48%;
+    margin-bottom : 4rem;
+}
+
+.work_list a{
+    display: inline-block;
+    width: 100%;
+}
+
+.work_list img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.work_txt{
+    width : 100%;
+    margin-top : 1rem;
+}
+
+.work_txt h5{
+    font-size : 2rem;
+    font-weight : bold;
+}
+
+.work_txt p{
+    margin-top : 0.4rem;
+    font-size : 1.4rem;
+    color : var(--color-subfont);
 }
